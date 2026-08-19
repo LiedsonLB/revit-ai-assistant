@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Revit AI Bridge</Name>
+    <Assembly>RevitBridge.dll</Assembly>
+    <AddInId>7B2E1B7A-6C9B-4B6B-8B8C-9E3B0B6A1F10</AddInId>
+    <FullClassName>RevitBridge.App</FullClassName>
+    <VendorId>REVITAI</VendorId>
+    <VendorDescription>Revit AI Assistant Bridge</VendorDescription>
+  </AddIn>
+</RevitAddIns>

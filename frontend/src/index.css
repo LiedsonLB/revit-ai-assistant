@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-blueprint-600/40;
+  }
+  body {
+    @apply bg-blueprint-950 text-slate-200 font-display antialiased;
+  }
+  ::selection {
+    @apply bg-cyan-glow/30 text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.04] backdrop-blur-xl border border-white/[0.08];
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-blueprint-600 rounded-full;
+  }
+}
